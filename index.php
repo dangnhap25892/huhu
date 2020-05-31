@@ -26,7 +26,7 @@ $botman->hears('hello', function (BotMan $bot) {
 $botman->hears('hi', function (BotMan $bot) {
     $bot->reply('huhuhuhu');
 });
-$botman->hears('hi', function (BotMan $bot) {
+$botman->hears('hia', function (BotMan $bot) {
     $bot->reply(ButtonTemplate::create('Do you want to know more about BotMan?')
 	->addButton(ElementButton::create('Tell me more')
 	    ->type('postback')
