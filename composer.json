@@ -1,0 +1,6 @@
+{
+    "require": {
+        "botman/installer": "^1.0",
+        "botman/driver-facebook": "^1.10"
+    }
+}
