@@ -23,7 +23,7 @@ $botman = BotManFactory::create($config);
 
 // Give the bot something to listen for.
 $botman->hears('hello', function (BotMan $bot) {
-    $bot->reply('Hello yourself.21');
+    $bot->reply('Hello yourself.212');
 });
 $botman->hears('call me {name}', function (BotMan $bot,$name) {
     $bot->reply('bạn tên :' .$name);
