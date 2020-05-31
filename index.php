@@ -23,6 +23,9 @@ $botman = BotManFactory::create($config);
 $botman->hears('hello', function (BotMan $bot) {
     $bot->reply('Hello yourself.');
 });
+$botman->hears('hi', function (BotMan $bot) {
+    $bot->reply('huhuhuhu');
+});
 
 
 // Start listening
