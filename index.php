@@ -32,7 +32,9 @@ $botman->hears('Bắt đầu', function (BotMan $bot) {
 $botman->hears('Get stared', function (BotMan $bot) {
     $bot->reply('chào chào');
 });
-
+$botman->fallback(function($bot) {
+    $bot->reply('Sorry, I did not understand these commands. Here is a list of commands I understand: ...');
+});
 
 
 // Start listening
